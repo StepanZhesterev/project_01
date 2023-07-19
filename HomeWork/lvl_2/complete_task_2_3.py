@@ -18,7 +18,6 @@ Original file is located at
 
 def switch_it_up(number):
   r=['ноль','один','два','три','четыре','пять','шесть', 'семь','восемь','девять']
-  for number in range(0,9):
-    return r[n]
+  return r[number]
 n=int(input("введите число от 0 до 9 "))
 print(switch_it_up(n))
